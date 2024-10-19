@@ -28,16 +28,16 @@ li:hover{
 	color: #fcfced;
 	background-color: #505264;
 }
-article{
+main{
 	background-color: #fcfced;
 	padding: 10px;
 }
-article a{
+main a{
 	text-decoration: none;
 	color: #505264;
 	font-size: 1rem;
 }
-article a:hover{
+main a:hover{
 	color: #828271;
 }
 h1{
@@ -50,4 +50,13 @@ footer{
 }
 img.photos{
 	border: 8px solid #d3d4bd;
+}
+
+.mt-3{
+	margin-top: 1.5rem;
+}
+
+.my-3{
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;	
 }
