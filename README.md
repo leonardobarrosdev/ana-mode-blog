@@ -1,12 +1,13 @@
 # Ana Bela - Website Oficial
 
+![](./image.png)
+
 Este é o repositório oficial do website de **Ana Bela**, uma modelo renomada no cenário da moda nacional e internacional. O site foi desenvolvido em **HTML** e **CSS** com o objetivo de oferecer uma plataforma elegante e responsiva para apresentar a biografia, campanhas publicitárias e informações de contato de Ana Bela.
 
 ## 🖥️ **Tecnologias Utilizadas**
 
 - **HTML5**: Estrutura principal do site.
 - **CSS3**: Estilos customizados e design responsivo.
-- **Fontes e Ícones**: Integração com Google Fonts e Font Awesome para tipografia e ícones.
 - **Imagens**: Utilização de imagens de alta qualidade para campanhas publicitárias e portfólio.
 
 ## 📁 **Estrutura de Pastas**
