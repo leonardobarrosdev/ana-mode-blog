@@ -1,24 +1,29 @@
-# Ana Bela - Website Oficial
+# Landing Page para Modelo - Anna Bela
 
-Este é o repositório oficial do website de **Ana Bela**, uma modelo renomada no cenário da moda nacional e internacional. O site foi desenvolvido em **HTML** e **CSS** com o objetivo de oferecer uma plataforma elegante e responsiva para apresentar a biografia, campanhas publicitárias e informações de contato de Ana Bela.
+![](./image.png)
+
+Este é o repositório oficial do website de **Anna Bela**, uma modelo renomada no cenário da moda nacional e internacional. O site foi desenvolvido em **HTML** e **CSS** com o objetivo de oferecer uma plataforma elegante e responsiva para apresentar a biografia, campanhas publicitárias e informações de contato de Anna Bela.
 
 ## 🖥️ **Tecnologias Utilizadas**
 
 - **HTML5**: Estrutura principal do site.
-- **CSS3**: Estilos customizados e design responsivo.
-- **Fontes e Ícones**: Integração com Google Fonts e Font Awesome para tipografia e ícones.
+- **CSS3 e Bootstrap5**: Estilos customizados e design responsivo.
+- **Fontes e Ícones**: Integração com Google Fonts e ícones do Bootstrap 5.
 - **Imagens**: Utilização de imagens de alta qualidade para campanhas publicitárias e portfólio.
 
 ## 📁 **Estrutura de Pastas**
 
 ```
-/css                # Arquivos de estilo CSS
-    /style.css
-/pictures           # Imagens das campanhas publicitárias, biografia e branding
-/pages              # Páginas
-    /biography.html  # Página de biografia
-    /campaings.html  # Página de campanhas publicitárias
-    /contact.html    # Página de contato
+assets/
+   /css                # Arquivos de estilo CSS
+      /style.css
+   /images           # Imagens das campanhas publicitárias, biografia e branding
+      /gallery
+      /history
+      /sponsors
+      /testimonials
+      /capa.webp
+      /fundo.webp
 /index.html         # Página inicial
 ```
 
@@ -27,13 +32,13 @@ Este é o repositório oficial do website de **Ana Bela**, uma modelo renomada n
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/leonardobarrosdev/anabela-website.git
+   git clone https://github.com/leonardobarrosdev/Annabela-website.git
    ```
 
 2. **Navegue até a pasta do projeto:**
 
    ```bash
-   cd anabela-website
+   cd Annabela-website
    ```
 
 3. **Abra o arquivo `index.html` no seu navegador:**
@@ -51,17 +56,17 @@ Este é o repositório oficial do website de **Ana Bela**, uma modelo renomada n
 
 ## 🌟 **Funcionalidades**
 
-- **Página Inicial**: Apresentação visual e elegante de Ana Bela, com links para as principais seções.
+- **Página Inicial**: Apresentação visual e elegante de Anna Bela, com links para as principais seções.
 - **Biografia**: Um resumo da carreira e trajetória da modelo.
-- **Campanhas Publicitárias**: Galeria com imagens das principais campanhas de Ana Bela.
-- **Contato**: Informações para entrar em contato com Ana Bela para propostas comerciais, desfiles ou colaborações.
+- **Campanhas Publicitárias**: Galeria com imagens das principais campanhas de Anna Bela.
+- **Contato**: Informações para entrar em contato com Anna Bela para propostas comerciais, desfiles ou colaborações.
 
 ## 🖌️ **Personalização**
 
 O site utiliza um design minimalista e moderno, que pode ser facilmente modificado para incluir novas campanhas, fotos e informações. Para isso:
 
-- Edite os arquivos de estilo na pasta `/css`.
-- Substitua as imagens na pasta `/pictures`.
+- Edite os arquivos de estilo na pasta `/assets/css`.
+- Substitua as imagens na pasta `/assets/images`.
 
 ## 🔗 **Deploy**
 
