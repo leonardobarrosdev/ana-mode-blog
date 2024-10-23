@@ -1,0 +1,170 @@
+@font-face {
+	font-family: "Noto Serif";
+	font-weight: 400;
+	src:url("../vendor/fonts/NotoSerif-Regular.woff2") format("woff2"),
+        url("../vendor/fonts/NotoSerif-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Noto Serif";
+	font-weight: 700;
+	src:url("../vendor/fonts/NotoSerif-light.woff2") format("woff2"),
+        url("../vendor/fonts/NotoSerif-light.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Noto Serif";
+	font-weight: 700;
+	src:url("assets/vendor/fonts/NotoSerif-Black.woff2") format("woff2"),
+        url("assets/vendor/fonts/NotoSerif-Black.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Noto Serif";
+	font-weight: 700;
+	src:url("../vendor/fonts/NotoSerif-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Noto Serif";
+	font-weight: 700;
+	src:url("../vendor/fonts/NotoSerif-Italic.woff") format("woff");
+}
+
+:root {
+	--color-secundary: #333741;
+	--color-light: #fcfced;
+}
+
+body {
+	background: #d2d2c1 url("../images/fundo.webp");
+	font-family: "Noto Serif", Arial, Helvetica, Sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+/* nav */
+nav {
+	background-color: #d3d4bd;
+}
+
+.navbar-brand {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	font-size: larger;
+	font-style: italic;
+	color: #828271
+}
+
+.navbar-brand:hover {
+	color: #fcfced
+}
+
+.nav li:hover {
+	opacity: 1s;
+	color: #fcfced !important;
+}
+
+ul {
+	text-align: block;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+li.nav-item {
+	display: inline-block;
+	padding: .5rem 0;
+	color: #505264
+}
+
+li.nav-item:hover {
+	border-bottom: 3px solid #fcfced;
+}
+
+li.nav-item:hover, .nav-link:hover, .active {
+	opacity: 1s;
+	color: var(--color-light) !important;
+}
+
+/* main */
+main {
+	background-color: #fcfced;
+}
+
+main a {
+	text-decoration: none;
+	color: #505264;
+	font-size: 1rem;
+}
+
+main a:hover {
+	color: #828271;
+}
+
+/* h* */
+h1 {
+	color: #828271;
+	font-size: 1.2em
+}
+
+h2 {
+	font-family: 'Courier New', Courier, monospace;
+	color: var(--color-secundary);
+	font-weight: 800;
+	/* font-size: clamp(20px, 4vw, 60px); */
+}
+
+h3 {
+	font-family: 'Courier New', Courier, monospace;
+	color: var(--color-secundary);
+	font-weight: 600;
+}
+
+/* image */
+img.photos {
+	border: 8px solid #d3d4bd;
+}
+
+svg.bi:hover {
+	opacity: 1s;
+	color: #fcfced !important;
+}
+
+/* Padding */
+.py-1 {
+	padding-top: 1em !important;
+	padding-bottom: 1em !important;
+}
+
+.py-6 {
+	padding-top: 6em !important;
+	padding-bottom: 6em !important;
+}
+
+/* form */
+input {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* button */
+.btn-secundary {
+	background-color: var(--color-secundary) !important;
+	color: var(--color-light) !important
+}
+
+.btn-secundary:hover {
+	opacity: 1s;
+	background-color: var(--color-light) !important;
+	color: var(--color-secundary) !important;
+}
+
+/* hero */
+.hero {
+	padding-top: 3em
+}
+
+.mx-auto {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
