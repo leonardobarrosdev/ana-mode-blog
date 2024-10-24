@@ -126,9 +126,13 @@ img.photos {
 	border: 8px solid #d3d4bd;
 }
 
+svg.bi {
+	color: var(--color-secundary);
+}
+
 svg.bi:hover {
 	opacity: 1s;
-	color: #fcfced !important;
+	color: #fcfced;
 }
 
 /* Padding */
@@ -147,16 +151,26 @@ input {
 	font-family: 'Courier New', Courier, monospace;
 }
 
-/* button */
-.btn-secundary {
-	background-color: var(--color-secundary) !important;
-	color: var(--color-light) !important
+.form-control:focus {
+    border-color: #6F6461;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(111, 100, 97, 0.6);
 }
 
-.btn-secundary:hover {
+/* button */
+.btn {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+}
+.btn-outline-secondary {
+	background-color: var(--color-light);
+	color: var(--color-secundary);
+}
+
+.btn-outline-secondary:hover {
 	opacity: 1s;
-	background-color: var(--color-light) !important;
-	color: var(--color-secundary) !important;
+	background-color: var(--color-secundary);
+	color: var(--color-light);
+	border-color: var(--color-secundary)
 }
 
 /* hero */
