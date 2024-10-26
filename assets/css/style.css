@@ -65,7 +65,7 @@ nav {
 	font-weight: 700;
 	font-size: larger;
 	font-style: italic;
-	color: #828271
+	color: var(--color-secundary)
 }
 
 .navbar-brand:hover {
@@ -172,15 +172,15 @@ input {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 600;
 }
+
 .btn-outline-secondary {
-	background-color: var(--color-light);
 	color: var(--color-secundary);
 }
 
 .btn-outline-secondary:hover {
 	opacity: 1s;
 	background-color: var(--color-secundary);
-	color: var(--color-light);
+	color: white;
 	border-color: var(--color-secundary)
 }
 
