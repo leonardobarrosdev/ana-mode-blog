@@ -3,6 +3,7 @@
 	font-weight: 400;
 	src:url("../vendor/fonts/NotoSerif-Regular.woff2") format("woff2"),
         url("../vendor/fonts/NotoSerif-Regular.woff") format("woff");
+	font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
 	font-weight: 700;
 	src:url("../vendor/fonts/NotoSerif-light.woff2") format("woff2"),
         url("../vendor/fonts/NotoSerif-light.woff") format("woff");
+	font-display: swap;
 }
 
 @font-face {
@@ -17,18 +19,21 @@
 	font-weight: 700;
 	src:url("assets/vendor/fonts/NotoSerif-Black.woff2") format("woff2"),
         url("assets/vendor/fonts/NotoSerif-Black.woff") format("woff");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Noto Serif";
 	font-weight: 700;
 	src:url("../vendor/fonts/NotoSerif-Bold.woff") format("woff");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "Noto Serif";
 	font-weight: 700;
 	src:url("../vendor/fonts/NotoSerif-Italic.woff") format("woff");
+	font-display: swap;
 }
 
 :root {

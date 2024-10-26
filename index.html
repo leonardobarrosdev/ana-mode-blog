@@ -18,9 +18,13 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 	<meta name="theme-color" content="#d2d2c1">
 	<!-- CSS -->
-	<link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/vendor/css/bootstrap-extra.css">
+	<link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css"></noscript>
+	<link rel="stylesheet" href="assets/vendor/css/bootstrap-extra.css" media="print" onload="this.media='all'">
+	<noscript><link rel="stylesheet" href="assets/vendor/css/bootstrap-extra.css"></noscript>
 	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/vendor/js/bootstrap.min.js" defer></script>
+	<script src="assets/js/navlink-active.js" defer></script>
 	<title>Anna Bela</title>
 </head>
 <body>
@@ -246,18 +250,17 @@
 		  <li class="ms-3 decoration-none"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#tikitok"></use></svg></a></li>
 		</ul>
 	</footer>
-	<script src="assets/vendor/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/navlink-active.js"></script>
 	<!-- Hotjar Tracking Code for https://leonardobarrosdev.github.io/ana-mode-blog/index.html -->
 	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		if (shouldTrack) {
+			(function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 			h._hjSettings={hjid:5184879,hjsv:6};
 			a=o.getElementsByTagName('head')[0];
 			r=o.createElement('script');r.async=1;
 			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+			}
 	</script>
 </body>
 </html>
