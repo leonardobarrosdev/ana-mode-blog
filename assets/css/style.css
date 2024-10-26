@@ -32,8 +32,14 @@
 }
 
 :root {
+	--color-primary: #f9f5e2;
 	--color-secundary: #333741;
 	--color-light: #fcfced;
+	--color-tertiary: #b4a68d;
+	--color-quaternary: #CECFBF;
+	--color-quinary: #787869;
+	--color-senary: #C4BAAB;
+	--color-septenary: #6F6461;
 }
 
 body {
