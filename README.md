@@ -1,6 +1,6 @@
 # Landing Page para Modelo - Anna Bela
 
-![](./image.png)
+![](./image.jpg)
 
 Este é o repositório oficial do website de **Anna Bela**, uma modelo renomada no cenário da moda nacional e internacional. O site foi desenvolvido em **HTML** e **CSS** com o objetivo de oferecer uma plataforma elegante e responsiva para apresentar a biografia, campanhas publicitárias e informações de contato de Anna Bela.
 
